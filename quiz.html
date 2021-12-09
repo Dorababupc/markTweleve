@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle quiz</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">
+          Triangle quiz
+        </h1>
+        <p>
+            How many can you answer correctly?
+        </p>
+        <form class="bloc">
+            <div class="questions">
+                <p>
+                    What is the third angle for the triangle where the first angle is 30 and second angle is 50 degrees?
+                </p>
+                <label class="radios"><input type="radio" name="question1" value="120">120</label>
+                <label class="radios"><input type="radio" name="question1" value="100">100</label>
+                <label class="radios"><input type="radio" name="question1" value="110">110</label>
+            </div>
+            <div class="questions">
+                <p>
+                    If one of the angle of a triangle is greater then 90 degrees then,it is?
+                </p>
+                <label class="radios"><input type="radio" name="question2" value="obtuse">obtuse</label>
+                <label class="radios"><input type="radio" name="question2" value="acute">acute</label>
+                <label class="radios"><input type="radio" name="question2" value="right">right</label>
+            </div>
+            <div class="questions">
+                <p>
+                  If the sum of two sides of a triangle is less than the third side, then it can form a triangle?
+                </p>
+                <label class="radios"><input type="radio" name="question3" value="true">true</label>
+                <label class="radios"><input type="radio" name="question3" value="false">false</label>
+            
+            </div>
+        </form>
+        <button class="submit">Submit quiz</button>
+        <p id="display-error"></p>
+       </div>
+    
+</body>
+    <script src="isQuiz.js"></script>
+</html>

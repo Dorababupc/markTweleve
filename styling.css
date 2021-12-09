@@ -22,19 +22,18 @@ p{
     margin: 1rem auto;
     text-align: center;
 }
-label{
-     display: block;
-     width: 100%;
-     margin: 1rem;
-
-}
-input{
+.label-html{
     display: block;
-     width: 50%;
-     margin: auto;
+    width: 100%;
+    margin: 1rem;
 }
-.bloc{
-    text-align: center;
+.angle{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.submit{
+    margin-top:1rem;
 }
 
 
