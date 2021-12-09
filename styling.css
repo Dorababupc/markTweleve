@@ -1,12 +1,12 @@
 
 body{
-    max-width: 60%;
+    max-width: 40%;
     margin: auto;
     text-align: center;
    
 }
 .container{
-    max-width: 80%;
+    max-width: 100%;
     text-align: center;
     margin: auto;
     padding: 1rem;
