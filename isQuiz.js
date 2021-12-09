@@ -13,6 +13,6 @@ function clickHandler(){
         }
         index++;
     }
-    console.log(score);
+    message.innerText="Your score is "+score;
 }
 submitbtn.addEventListener("click",clickHandler);
