@@ -1,0 +1,41 @@
+body{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+   
+}
+.container{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    background-color: bisque;
+}
+p{
+    max-width: 500rem;
+    margin: 3rem auto;
+    text-align:center
+
+}
+.display-error{
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+}
+label{
+     display: block;
+     width: 100%;
+     margin: 1rem;
+
+}
+input{
+    display: block;
+     width: 50%;
+     margin: auto;
+}
+.bloc{
+    text-align: center;
+}
+
+
+
